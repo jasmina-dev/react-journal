@@ -45,6 +45,7 @@
     height: 225px; /* Adjust the height to maintain aspect ratio */
     border-radius: 10px; /* Add rounded borders */
 }
+
 .card--dates p {
     margin: 0;
 }
@@ -56,4 +57,46 @@
 
 .card--desc p {
     margin: 0;
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .card--info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .card--location {
+        padding: 5px 0px;
+    }
+
+    .card--info h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .card--location a {
+        font-size: 10px;
+    }
+
+    .card--location h4 {
+        font-size: 11px;
+    }
+
+    .card--image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card--dates {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

@@ -8,7 +8,7 @@ export default function App() {
   });
 
   return (
-    <div>
+    <div className="hero">
       <div className="header">
         <h4>🌍 my travel journal</h4>
       </div>

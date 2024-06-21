@@ -28,5 +28,15 @@ export default [
         endDate: "15 Jun, 2021",
         description: "Geirangerfjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway.",
         imageUrl: "norway.jpg"
+    },
+    {
+        id: 4,
+        title: "Samarkand",
+        location: "Uzbekistan",
+        googleMapsUrl: "https://maps.app.goo.gl/B2iY4EKiX8RpZCDx9",
+        startDate: "12 Sep, 2025",
+        endDate: "15 Sep, 2025",
+        description: "Samarkand is a city in southeastern Uzbekistan and one of the oldest inhabited cities in Central Asia.",
+        imageUrl: "samarkand.jpg"
     }
 ]
