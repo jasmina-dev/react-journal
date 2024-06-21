@@ -62,7 +62,7 @@
 /* Mobile-friendly styles */
 @media (max-width: 768px) {
     .card {
-        width: 100%;
+        width: 90%; /* Change the width to a percentage value */
         height: auto;
         flex-direction: column;
         padding: 20px;
@@ -91,7 +91,7 @@
     }
 
     .card--image img {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
